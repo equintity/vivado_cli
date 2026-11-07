@@ -1,0 +1,11 @@
+name,width,pin,iostandard,drive,slew,pulltype,comment
+clk,1,B13,LVCMOS33,,,,系统时钟（引脚示例取自 xc7a35tcpg236 封装）
+rst_n,1,A12,LVCMOS33,,,,按键复位（低有效）
+sw[0],4,D17,LVCMOS33,,,,
+sw[1],4,D18,LVCMOS33,,,,
+sw[2],4,D19,LVCMOS33,,,,
+sw[3],4,G18,LVCMOS33,,,,
+led[0],4,F18,LVCMOS33,8,FAST,,具体板卡请按原理图填写
+led[1],4,E18,LVCMOS33,8,FAST,,
+led[2],4,E19,LVCMOS33,8,FAST,,
+led[3],4,H19,LVCMOS33,8,FAST,,
